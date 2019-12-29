@@ -12,6 +12,11 @@
 		E810CF38239CEE75002C01CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E810CF36239CEE75002C01CF /* Main.storyboard */; };
 		E810CF3A239CEE7A002C01CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E810CF39239CEE7A002C01CF /* Assets.xcassets */; };
 		E810CF3D239CEE7A002C01CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E810CF3B239CEE7A002C01CF /* LaunchScreen.storyboard */; };
+		E85EA77423B882A700A86016 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85EA77323B882A700A86016 /* Gilroy-Black.ttf */; };
+		E85EA77623B89EED00A86016 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EA77523B89EED00A86016 /* DesignableUITextField.swift */; };
+		E85EA77923B8A37700A86016 /* DesignableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EA77823B8A37700A86016 /* DesignableUIView.swift */; };
+		E85EA77B23B8A6E900A86016 /* DesignableUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EA77A23B8A6E900A86016 /* DesignableUIButton.swift */; };
+		E85EA77D23B8A6EE00A86016 /* DesignableUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EA77C23B8A6EE00A86016 /* DesignableUIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E810CF39239CEE7A002C01CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E810CF3C239CEE7A002C01CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E810CF3E239CEE7A002C01CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85EA77323B882A700A86016 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		E85EA77523B89EED00A86016 /* DesignableUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		E85EA77823B8A37700A86016 /* DesignableUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIView.swift; sourceTree = "<group>"; };
+		E85EA77A23B8A6E900A86016 /* DesignableUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIButton.swift; sourceTree = "<group>"; };
+		E85EA77C23B8A6EE00A86016 /* DesignableUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 		E810CF31239CEE75002C01CF /* medec */ = {
 			isa = PBXGroup;
 			children = (
+				E85EA77723B8A35000A86016 /* Designables */,
+				E8A1ACEC23B88233008C9339 /* fonts */,
 				E810CF32239CEE75002C01CF /* AppDelegate.swift */,
 				E810CF34239CEE75002C01CF /* ViewController.swift */,
 				E810CF36239CEE75002C01CF /* Main.storyboard */,
@@ -62,6 +74,25 @@
 				E810CF3E239CEE7A002C01CF /* Info.plist */,
 			);
 			path = medec;
+			sourceTree = "<group>";
+		};
+		E85EA77723B8A35000A86016 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				E85EA77C23B8A6EE00A86016 /* DesignableUIImage.swift */,
+				E85EA77A23B8A6E900A86016 /* DesignableUIButton.swift */,
+				E85EA77823B8A37700A86016 /* DesignableUIView.swift */,
+				E85EA77523B89EED00A86016 /* DesignableUITextField.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		E8A1ACEC23B88233008C9339 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E85EA77323B882A700A86016 /* Gilroy-Black.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85EA77423B882A700A86016 /* Gilroy-Black.ttf in Resources */,
 				E810CF3D239CEE7A002C01CF /* LaunchScreen.storyboard in Resources */,
 				E810CF3A239CEE7A002C01CF /* Assets.xcassets in Resources */,
 				E810CF38239CEE75002C01CF /* Main.storyboard in Resources */,
@@ -135,8 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85EA77923B8A37700A86016 /* DesignableUIView.swift in Sources */,
+				E85EA77623B89EED00A86016 /* DesignableUITextField.swift in Sources */,
+				E85EA77B23B8A6E900A86016 /* DesignableUIButton.swift in Sources */,
 				E810CF35239CEE75002C01CF /* ViewController.swift in Sources */,
 				E810CF33239CEE75002C01CF /* AppDelegate.swift in Sources */,
+				E85EA77D23B8A6EE00A86016 /* DesignableUIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
