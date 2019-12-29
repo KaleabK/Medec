@@ -17,6 +17,7 @@
 		E85EA77923B8A37700A86016 /* DesignableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EA77823B8A37700A86016 /* DesignableUIView.swift */; };
 		E85EA77B23B8A6E900A86016 /* DesignableUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EA77A23B8A6E900A86016 /* DesignableUIButton.swift */; };
 		E85EA77D23B8A6EE00A86016 /* DesignableUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EA77C23B8A6EE00A86016 /* DesignableUIImage.swift */; };
+		E85EA78023B8AC9600A86016 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EA77F23B8AC9600A86016 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E85EA77823B8A37700A86016 /* DesignableUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIView.swift; sourceTree = "<group>"; };
 		E85EA77A23B8A6E900A86016 /* DesignableUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIButton.swift; sourceTree = "<group>"; };
 		E85EA77C23B8A6EE00A86016 /* DesignableUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIImage.swift; sourceTree = "<group>"; };
+		E85EA77F23B8AC9600A86016 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		E810CF31239CEE75002C01CF /* medec */ = {
 			isa = PBXGroup;
 			children = (
+				E85EA77E23B8AC6D00A86016 /* libraries */,
 				E85EA77723B8A35000A86016 /* Designables */,
 				E8A1ACEC23B88233008C9339 /* fonts */,
 				E810CF32239CEE75002C01CF /* AppDelegate.swift */,
@@ -85,6 +88,14 @@
 				E85EA77523B89EED00A86016 /* DesignableUITextField.swift */,
 			);
 			path = Designables;
+			sourceTree = "<group>";
+		};
+		E85EA77E23B8AC6D00A86016 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E85EA77F23B8AC9600A86016 /* Constants.swift */,
+			);
+			path = libraries;
 			sourceTree = "<group>";
 		};
 		E8A1ACEC23B88233008C9339 /* fonts */ = {
@@ -171,6 +182,7 @@
 				E85EA77623B89EED00A86016 /* DesignableUITextField.swift in Sources */,
 				E85EA77B23B8A6E900A86016 /* DesignableUIButton.swift in Sources */,
 				E810CF35239CEE75002C01CF /* ViewController.swift in Sources */,
+				E85EA78023B8AC9600A86016 /* Constants.swift in Sources */,
 				E810CF33239CEE75002C01CF /* AppDelegate.swift in Sources */,
 				E85EA77D23B8A6EE00A86016 /* DesignableUIImage.swift in Sources */,
 			);
